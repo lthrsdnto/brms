@@ -1,0 +1,42 @@
+<style type="text/css">
+  .card {
+    background: linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+      );
+    opacity: 0.8;
+    color:white;
+
+}
+body{
+  background-image: url("images/qcu01.jpg");
+  background-size: cover;
+}
+main{
+  padding: 0;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 100px - 60px);
+}
+footer{
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    text-shadow:1px 1px 0 black, 
+                2px 2px 0 black;
+    font-weight: 900px;
+    padding: 10px; 
+}
+td{
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+th{
+  position: relative;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+</style>
